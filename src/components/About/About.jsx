@@ -59,8 +59,6 @@ export const About = () => {
             </div>
         </li>
         </ul>
-
-
       </div>
     </section>
   );

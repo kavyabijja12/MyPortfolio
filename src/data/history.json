@@ -4,7 +4,7 @@
     "organisation": "LTIMindtree",
     "startDate": "Oct, 2022",
     "endDate": "Dec, 2023",
-    "experiences": ["Automated Data Migration Applications", "Increased data transfer efficiency by 70%"],
+    "experiences": ["Automated data migration apps using GCP, boosting efficiency with end-to-end SDLC implementation", "Built a database lineage tool and AI-based data validation tool, cutting processing time by 90%", "Developed Spark-based ETL pipelines and optimized deployments, reducing vulnerabilities by 25%"],
     "imageSrc": "history/ltimindtree.png"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "LTIMindtree",
     "startDate": "July, 2022",
     "endDate": "Oct, 2022",
-    "experiences": ["Developed Data pipelines and displayed in BI tools", "Improved GCP cost oversight by 20% using alert feature in FInops web app"],
+    "experiences": ["Optimized data solutions on cloud platforms; migrated 10+ legacy databases to BigQuery and Databricks", "Built data pipelines, BI dashboards with Looker, and FinOps alert features, improving GCP cost oversight by 20%."],
     "imageSrc": "history/ltimindtree.png"
   }
 ]
