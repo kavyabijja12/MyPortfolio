@@ -14,6 +14,14 @@ function Hero() {
         <a href="mailto:kavyabijja12@email.com" className={styles.contactBtn}>
           Contact Me
         </a>
+        <a
+            href="https://drive.google.com/uc?export=download&id=1rP8inOSY6KT3Zs65gMORi3nmB4hMIjRO"
+            className={styles.contactBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Resume
+          </a>
       </div>
       <img
         src={getImageUrl("hero/Kavya1.jpeg")}
