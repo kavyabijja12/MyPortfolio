@@ -2,7 +2,7 @@
   {
     "title": "BookStore End-to-End Development",
     "imageSrc": "projects/bookstore1.jpeg",
-    "description": "Built a comprehensive MERN stack web application to manage book inventory, supporting full CRUD (Create, Read, Update, Delete) functionality and enabling users to seamlessly browse and update book details. Deployed the application on AWS EC2, ensuring a scalable and reliable cloud infrastructure",
+    "description": "Built a MERN stack web app to manage book inventory, supporting full CRUD functionality. Deployed the application on AWS EC2, ensuring a scalable and reliable cloud infrastructure",
     "skills": ["MongoDB", "Express.js", "React.js", "Node.js", "AWS EC2", "REST APIs", "CLI"],
     "demo": "https://www.example.com",
     "source": "https://github.com/kavyabijja12/BookStore"
@@ -10,9 +10,17 @@
   {
     "title": "Automated data upload to Bigquery",
     "imageSrc": "projects/BQ.png",
-    "description": "Engineered a scalable solution to automate data ingestion into BigQuery, optimizing workflows by 35% and enabling seamless data transfer from Google Cloud Storage using Cloud Functions, Cloud Run, and Dataflow for real-time processing.",
+    "description": "Engineered a scalable solution to automate data ingestion into BigQuery, optimizing workflows by 35% and enabling seamless data transfer.",
     "skills": ["BigQuery", "Google Cloud Storage", "Cloud Functions", "Cloud Run", "Dataflow", "Cloud Triggers"],
     "demo": "https://www.example.com",
     "source": "https://github.com/kavyabijja12/automate-gcs-bq"
+  },
+  {
+    "title": "Streaming Data Analysis using Kafka",
+    "imageSrc": "projects/Kafka.jpg",
+    "description": "Implemented a real-time data engineering pipeline to stream, process, and store stock market data, enabling efficient querying and analysis.",
+    "skills": ["Python", "Amazon Web Services (AWS)", "Apache Kafka", "Glue", "Athena",  "SQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/kavyabijja12/kafka-streaming-data-analysis"
   }
 ]
