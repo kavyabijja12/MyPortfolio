@@ -1,0 +1,26 @@
+[
+  {
+    "title": "BookStore End-to-End Development",
+    "imageSrc": "projects/bookstore.png",
+    "description": "Built a comprehensive MERN stack web application to manage book inventory, supporting full CRUD (Create, Read, Update, Delete) functionality and enabling users to seamlessly browse and update book details. Deployed the application on AWS EC2, ensuring a highly scalable and reliable cloud infrastructure for consistent performance",
+    "skills": ["MongoDB", "Express.js", "React.js", "Node.js", "AWS EC2", "REST APIs", "CLI"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/kavyabijja12/BookStore"
+  },
+  {
+    "title": "Automated data upload to Bigquery",
+    "imageSrc": "projects/project.png",
+    "description": "• Engineered a scalable solution to automate data ingestion into BigQuery, optimizing workflows by 35% and enabling seamless data transfer from Google Cloud Storage using Cloud Functions, Cloud Run, and Dataflow for real-time processing.",
+    "skills": ["BigQuery", "Google Cloud Storage", "Cloud Functions", "Cloud Run", "Dataflow", "Cloud Triggers"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/kavyabijja12/automate-gcs-bq"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "Google cloud",
+    "imageSrc": "skills/gcp.png"
+  },
+  {
+    "title": "Spark",
+    "imageSrc": "skills/spark.png"
+  },
+  {
+    "title": "Tableau",
+    "imageSrc": "skills/tableau.svg"
+  }
+]

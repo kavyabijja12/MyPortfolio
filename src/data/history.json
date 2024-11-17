@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Senior Data Engineer",
+    "organisation": "LTIMindtree",
+    "startDate": "Oct, 2022",
+    "endDate": "Dec, 2023",
+    "experiences": ["Automated Data Migration Applications", "Increased data transfer efficiency by 70%"],
+    "imageSrc": "history/ltimindtree.png"
+  },
+  {
+    "role": "Graduate Engineer Trainee",
+    "organisation": "LTIMindtree",
+    "startDate": "July, 2022",
+    "endDate": "Oct, 2022",
+    "experiences": ["Developed Data pipelines and displayed in BI tools", "Improved GCP cost oversight by 20% using alert feature in FInops web app"],
+    "imageSrc": "history/ltimindtree.png"
+  }
+]
