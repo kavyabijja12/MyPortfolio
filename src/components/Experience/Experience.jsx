@@ -83,7 +83,7 @@ export const Experience = () => {
 
       {/* Recommendations Section */}
       <div className={styles.recommendations}>
-        <h2 className={styles.title}>What My Peers Say About Me!</h2>
+        <h2 className={styles.title2}>What My Peers Say About Me!</h2>
         <div className={styles.recommendationSlider}>
           <button onClick={handlePrev} className={styles.arrow}>
             &#8249; {/* Left Arrow */}

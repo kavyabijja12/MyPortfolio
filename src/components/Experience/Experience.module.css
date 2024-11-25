@@ -14,7 +14,15 @@
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title2 {
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -127,13 +135,6 @@
   margin-top: 40px;
 }
 
-.recommendationSlider {
-  display: flex;
-  overflow-x: scroll;
-  gap: 20px;
-  margin-top: 20px;
-}
-
 .recommendationHeader {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
@@ -220,16 +221,64 @@
 .arrow:hover {
   transform: scale(1.1);
 } */
+.recommendationSlider {
+  display: flex;
+  align-items: center; /* Vertically center the arrows and recommendation */
+  justify-content: center; /* Center the content */
+  position: relative; /* Set position relative for absolute arrow positioning */
+  overflow: hidden; /* Prevent overflow */
+  padding: 0 40px; /* Add padding to allow space for arrows */
+}
 
 .arrow {
+  position: absolute; /* Position arrows relative to the slider container */
+  top: 50%; /* Vertically center the arrows */
+  transform: translateY(-50%); /* Adjust for perfect vertical alignment */
   background-color: transparent;
   border: none;
-  font-size: 3rem; /* Increased size */
-  color: black; /* Changed to black */
+  font-size: 3rem; /* Large arrow size */
+  color: black; /* Black arrows */
   cursor: pointer;
+  z-index: 2; /* Ensure arrows appear above the content */
   transition: transform 0.2s ease;
 }
 
+/* Left Arrow */
+.arrow:first-of-type {
+  left: 0; /* Position it on the left side */
+}
+
+/* Right Arrow */
+.arrow:last-of-type {
+  right: 0; /* Position it on the right side */
+}
+
 .arrow:hover {
-  transform: scale(1.2); /* Slightly larger hover effect */
+  transform: scale(1.2) translateY(-50%); /* Slight hover effect */
+}
+
+/* Recommendation Item Styling */
+.recommendationItem {
+  flex-shrink: 0; /* Prevent shrinking */
+  width: 100%; /* Ensure it takes full width */
+  max-width: 700px; /* Limit the size of the recommendation */
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Mobile View Adjustments */
+@media screen and (max-width: 830px) {
+  .recommendationSlider {
+    padding: 0 20px; /* Reduce padding for smaller screens */
+  }
+
+  .arrow {
+    font-size: 2.5rem; /* Reduce size of arrows */
+    left: 95%; /* Adjust spacing for smaller screens */
+    right: 95%;
+  }
 }
