@@ -15,13 +15,13 @@ function Contact() {
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("contact/linkedinIcon.png")}
+            src={getImageUrl("contact/linkedinIcon.svg")}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/bijja-kavya/">linkedin.com/bijja-kavya</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <img src={getImageUrl("contact/githubIcon.svg")} alt="Github icon" />
           <a href="https://github.com/kavyabijja12">github.com/kavyabijja12</a>
         </li>
       </ul>

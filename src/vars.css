@@ -1,12 +1,12 @@
 :root {
-    /* Colours */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+  /* Colours */
+  --color-text: #333; /* Soft dark grey for text */
+  --color-primary: #f5f5dc; /* Beige for primary elements */
+  --color-secondary: #fff8e7; /* Cream for secondary elements */
+  --color-dark: #eae4d3; /* Light cream for accents or darker backgrounds */
+  --color-bg: #fffdf6; /* Soft white/cream background */
   
-    /* Fonts */
-    --font-roboto: "Roboto";
-  }
-  
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+ 

@@ -1,8 +1,8 @@
 [
   {
     "title": "BookStore End-to-End Development",
-    "imageSrc": "projects/bookstore1.jpeg",
-    "description": "Built a MERN stack web app to manage book inventory, supporting full CRUD functionality. Deployed the application on AWS EC2, ensuring a scalable and reliable cloud infrastructure",
+    "imageSrc": "projects/bookstore.jpeg",
+    "description": "Built a MERN stack web app to manage book inventory, supporting full CRUD functionality, deployed on AWS EC2, ensuring a scalable infrastructure",
     "skills": ["MongoDB", "Express.js", "React.js", "Node.js", "AWS EC2", "REST APIs", "CLI"],
     "demo": "https://www.example.com",
     "source": "https://github.com/kavyabijja12/BookStore"

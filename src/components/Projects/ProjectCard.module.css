@@ -4,25 +4,29 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  background: var(--color-secondary);
+  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.5); /* Soft shadow */
   padding: 18px 24px;
   max-width: 345px;
+  color: var(--color-text);
 }
 
 .image {
   margin-bottom: 26px;
+  /* Add any image-specific styling if needed */
 }
 
 .title {
   font-size: 25px;
   font-weight: 700;
+  color: var(--color-text); /* Ensures the title text is visible */
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
+  color: var(--color-text);
 }
 
 .skills {
@@ -31,16 +35,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 10px; /* Adjusted for better spacing */
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  background: var(--color-dark); /* Dark background for the skill badges */
+  color: var(--color-text); /* Ensures the text in the skill badge is visible */
+  padding: 5px 22px;
 }
 
 .links {
@@ -53,9 +58,48 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 20px; /* Reduced font size for the links */
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  background: var(--color-secondary); /* Matching the primary color */
+  padding: 6px 22px;
+  transition: background 0.3s ease;
+}
+
+.link:hover {
+  background: var(--color-secondary); /* Hover effect */
+}
+
+/* For mobile responsiveness */
+@media screen and (max-width: 830px) {
+  .container {
+    max-width: 100%; /* Full width for smaller screens */
+    padding: 18px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .skills {
+    gap: 8px;
+  }
+
+  .skill {
+    font-size: 16px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .link {
+    font-size: 18px;
+    padding: 6px 18px;
+  }
 }
