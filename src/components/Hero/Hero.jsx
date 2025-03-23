@@ -15,7 +15,7 @@ function Hero() {
           Contact Me
         </a>
         <a
-            href="https://drive.google.com/uc?export=download&id=1pYIMjWaBHGuSWUFyEID5tGopi_1ZbN-Y"
+            href="https://drive.google.com/uc?export=download&id=1iz42FvRkY3BTjXv5w0IgqI8cReOGhN9C"
             className={styles.contactBtn}
             target="_blank"
             rel="noopener noreferrer"
