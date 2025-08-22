@@ -1,5 +1,13 @@
 [
   {
+    "role": "Solutions Architect Intern",
+    "organisation": "Amazon Web Services",
+    "startDate": "May, 2025",
+    "endDate": "August, 2025",
+    "experiences": ["Designed cloud architecture solutions for enterprise clients", "Collaborated with cross-functional teams to implement AWS best practices", "Supported migration strategies and cost optimization initiatives"],
+    "imageSrc": "history/aws.png"
+  },
+  {
     "role": "Senior Data Engineer",
     "organisation": "LTIMindtree",
     "startDate": "Oct, 2022",
