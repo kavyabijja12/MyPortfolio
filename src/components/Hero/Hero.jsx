@@ -8,8 +8,8 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Kavya Bijja</h1>
         <p className={styles.description}>
-          I'm a Cloud Data Engineer with 1.5+ years of experience using Google Cloud Platform services, Python and
-          SQL. I also have experience as a Solutions Architect Intern at AWS. Reach out if you'd like to learn more!
+          I’m a data professional with experience in building, analyzing, and delivering data-driven solutions using Python, SQL, and cloud platforms. 
+          I’ve also worked as a Solutions Architect Intern at AWS. Feel free to reach out to learn more!
         </p>
         <a href="mailto:kavyabijja12@email.com" className={styles.contactBtn}>
           Contact Me
