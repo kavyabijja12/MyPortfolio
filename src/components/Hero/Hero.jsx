@@ -8,7 +8,7 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Kavya Bijja</h1>
         <p className={styles.description}>
-          I’m a data professional with experience in building, analyzing, and delivering data-driven solutions using Python, SQL, and cloud platforms. 
+          I’m a IT professional with experience in building, analyzing, and delivering data-driven solutions using Python, SQL, and cloud platforms. 
           I’ve also worked as a Solutions Architect Intern at AWS. Feel free to reach out to learn more!
         </p>
         <a href="mailto:kavyabijja12@email.com" className={styles.contactBtn}>
